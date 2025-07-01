@@ -2,7 +2,7 @@ import os
 import pandas as pd
 
 # Configuration
-root_dir = r"C:\Users\Rabie.Otoum\OneDrive - Zain Jordan\Desktop\Temp"
+root_dir = r"C:\Users\XXXXXXXXXXXXXXXXXXX"
 file_prefix = "CDR"
 xlsm_file_paths = []
 bad_paths = []
@@ -49,5 +49,5 @@ if collected_data:
 else:
     all = pd.DataFrame()
     print("\n⚠️ No valid data extracted.")
-all.to_csv(r"C:\Users\Rabie.Otoum\saved csv\all.csv")
+all.to_csv(r"C:\Users\XXXXXXXXXXXXXXXXX\all.csv")
 print("Saved...")
